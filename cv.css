@@ -85,10 +85,9 @@
 /*FOOTER*/
 
 #footer {
-    border-radius: 0 0 600px 600px;
     position: relative;
     clear: both;
-    text-align: center;
+    text-align: left;
     width: 840px;
     height: 120px;
     background-color: #decab0;
@@ -101,4 +100,13 @@
     
     #footer ul{ 
        list-style-type: none; 
+}
+
+#footer iframe{
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-right: 30px;
+    height: 120px;
+    width: 420px;
 }
